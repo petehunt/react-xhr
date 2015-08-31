@@ -1,6 +1,6 @@
 {
   "name": "react-xhr",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "React-flavored universal XHR",
   "main": "lib/ReactXhr.js",
   "scripts": {
