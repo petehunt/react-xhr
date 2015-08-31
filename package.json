@@ -1,11 +1,23 @@
 {
   "name": "react-xhr",
-  "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
+  "version": "0.0.2",
+  "description": "React-flavored universal XHR",
+  "main": "lib/ReactXhr.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jasmine"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Pete Hunt",
+  "license": "MIT",
+  "dependencies": {
+    "invariant": "^2.1.0",
+    "lodash.mapvalues": "^3.0.1",
+    "object-assign": "^4.0.1",
+    "react": "^0.13.3",
+    "xhr": "^2.0.4"
+  },
+  "devDependencies": {
+    "jasmine": "^2.3.2",
+    "jsdom": "^3.1.2",
+    "webpack-require": "0.0.14"
+  }
 }
