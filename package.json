@@ -1,6 +1,6 @@
 {
   "name": "react-xhr",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "React-flavored universal XHR",
   "main": "lib/ReactXhr.js",
   "scripts": {
@@ -12,7 +12,7 @@
     "invariant": "^2.1.0",
     "lodash.mapvalues": "^3.0.1",
     "object-assign": "^4.0.1",
-    "react": "^0.13.3",
+    "react": "*",
     "xhr": "^2.0.4"
   },
   "devDependencies": {
